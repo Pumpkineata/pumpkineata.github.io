@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>demonstate some postining 100 px wide</title>
+    <style>
+        #container {
+            width: 800px;
+            height: 444px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(112, 106, 97, .5);
+            position: relative;
+        }
+
+        #red {
+            background-color: red;
+            position: absolute;
+            height: 100;
+            width: 400;
+            top: 25px;
+            left: 40px; 
+            z-index: 0;
+        }
+
+        #blue{
+            background-color: rgba(0,0,255,.5);
+            position: absolute;
+            height: 400px;
+            width: 100px;
+            top: 25px;
+            right:40px;
+            z-index: 10;
+ 
+        }
+
+        #green{
+            background-color: rgb(0, 255, 76);
+            position: absolute;
+            height: 400px;
+            width: 100px;
+            top: 25px;
+            right:90px;
+            z-index: 5;
+                
+        }
+
+        #blueCircle{
+            height: 200px;
+            width: 200px;
+            background-color: darkmagenta;
+            border-radius: 50%;
+            top: 0;
+            right: 50%;
+            position: absolute;
+                
+        }
+        #trap{
+            border-bottom: 50px solid #fff;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            height: 0;
+            width: 125px;
+            z-index: 100;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+         }
+        #para{
+            position: absolute;
+            width: 400px;
+            height: 100px;
+            background-color: rgba(128,128,0,.6);
+            top: 200px;
+            left: 33%;
+            z-index: 110;
+            transform: skew(25deg);
+        }
+</style> 
+
+</head>
+<body style="background-color: rgb(255, 255, 255, 1);">
+<div id="container">
+<div id="red">words&nbsp;</div>
+    <div id="blue"></div>
+    <div id="green"></div>
+    <div id="blueCircle"></div>
+    <div id="trap"></div>
+    <div id="para"></div>
+
+</div>
+</body>
+</html>

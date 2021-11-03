@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>index</title>
+        <style>
+            ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 600px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #f1f1f1;
+  color: #f1f1f1;
+  padding: 25px 30px;
+  font-size: 16px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-family: fantasy;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: fantasy;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #555}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #f1f1f1;
+}
+
+img {
+    width: 1200px;
+    height: 840px;
+    margin: -400px 750px;
+}
+        </style>
+    </head>
+    <body style="background-color: rgb(176, 176, 226); font-family: fantasy;  margin: 100;">
+        
+    <h1 style="background-color: rgb(85, 7, 173); text-align: center; font-size: 4em; border-radius: 50px;">Index</h1>
+    <p style="text-align: center; font-family: sans-serif;">The index is a way top store all my html pages and be able to file them correctly for me to find and others. The index is just a bigger root but online, its like a folder.</p>
+    
+    <ul>
+    <li><a href="Biography Page.html">Biography</a></li>
+    <li><a href="Landing page _portfolio.html">Art work portofolio</a></li>
+    <li><a href="griffind_mbs_photoshop.html">Mind, Body, Spirit Photoshop assignment</a></li>
+    <li><a href="Painting with CSS.html">Painting with CSS</a></li>
+    <li><a href="/librarynetart/netartlaunch.html">Net.art Project</a></li>
+    <div class="dropdown">
+        <button class="dropbtn">Net.art Project</button>
+        <div class="dropdown-content">
+          <a href="/librarynetart/Netart1.html">NET.ART 1</a>
+          <a href="/librarynetart/netart2.html">NET.ART 2</a>
+          <a href="/librarynetart/netart3.html">NET.ART 3</a>
+          <a href="/librarynetart/netart4.html">NET.ART 4</a>
+          <a href="/librarynetart/netart5.html">NET.ART 5</a>
+
+        </div>
+      </div>
+    </ul>
+    <img src="welcome-gif.gif">
+    </body>
+</html>
