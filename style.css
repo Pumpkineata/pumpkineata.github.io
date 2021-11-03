@@ -109,19 +109,19 @@ h2 {
 }
 
 .stars{
-    background: #000 url(/librarynetart/stars.png) repeat top center;
+    background: #000 url(stars.png) repeat top center;
     z-index: 0;
 }
 
 .twinkling{
-    background: transparent url(/librarynetart/twinkling.png) repeat top center;
+    background: transparent url(twinkling.png) repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
 
 }
 
 .clouds{
-    background: transparent url(/librarynetart/sun.png) repeat top center;
+    background: transparent url(sun.png) repeat top center;
     z-index: 2;
     opacity: .4;
     animation: move-clouds-back 200s linear infinite;
